@@ -27,16 +27,13 @@ Added modular input handling for word vs. line mode (128×32 input size) .
 Designed example scripts for batch processing and real-time inference.
 
 📁 Repository Structure
-bash
-Copy
-Edit
-.
-├── data/                  # Preprocessed training/test word & line images
-├── model/                 # Pre-trained model weights (SimpleHTR format)
-├── src/
-│   ├── main.py            # Custom entry script: train/infer/batch modes
-│   ├── config.py          # Configurable paths, thresholds, and modes
-│   ├── augment.py         # Data augmentation module
-│   └── utils.py           # Preprocessing, confidence scoring, loading
-├── requirements.txt
-└── README.md
+    
+    ├── data/                  # Preprocessed training/test word & line images
+    ├── model/                 # Pre-trained model weights (SimpleHTR format)
+    ├── src/
+    │   ├── main.py            # Custom entry script: train/infer/batch modes
+    │   ├── config.py          # Configurable paths, thresholds, and modes
+    │   ├── augment.py         # Data augmentation module
+    │   └── utils.py           # Preprocessing, confidence scoring, loading
+    ├── requirements.txt
+    └── README.md
